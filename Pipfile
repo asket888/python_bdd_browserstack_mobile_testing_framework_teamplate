@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+prospector = "*"
+black = "==19.3b0"
+
+[packages]
+Appium-Python-Client = "*"
+behave-teamcity = "*"
+allure-behave = "*"
+pyhamcrest = "*"
+requests = "*"
+behave = "*"
+invoke = "*"
+
+[requires]
+python_version = "3.8"

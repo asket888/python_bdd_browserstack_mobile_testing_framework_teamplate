@@ -1,0 +1,31 @@
+{
+    "ANDROID": {
+        "browserstack": {
+            "url": "https://hub-cloud.browserstack.com/wd/hub",
+            "user_name": "BROWSERSTACK_USER_NAME",
+            "access_key": "BROWSERSTACK_ACCESS_KEY",
+            "build_id": "d3a156adfc1252511251ecedd28a4430667eb5b3"
+        },
+        "app": {
+            "user": {
+                "login": "test_bot",
+                "password": "USER_PASSWORD"
+            }
+        }
+    },
+
+    "IOS": {
+        "browserstack": {
+            "url": "https://hub-cloud.browserstack.com/wd/hub",
+            "user_name": "BROWSERSTACK_USER_NAME",
+            "access_key": "BROWSERSTACK_ACCESS_KEY",
+            "build_id": "12afb858f3e23da533f159ff03631b0ea6384f5a"
+        },
+        "app": {
+            "user": {
+                "login": "test_bot",
+                "password": "USER_PASSWORD"
+            }
+        }
+    }
+}
